@@ -1,0 +1,43 @@
+body{
+	background-image: url("https://wallpaperaccess.com/full/2078959.jpg");
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+	color: black;
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+	color: red;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#restartBtn{
+	font-size:50px;
+}
+.x-text {
+  color: green;
+}
+
+.o-text {
+  color: blue;
+}
+
+.winning-x {
+  background-color: blue;
+}
+
+.winning-o {
+  background-color: green;
+}
